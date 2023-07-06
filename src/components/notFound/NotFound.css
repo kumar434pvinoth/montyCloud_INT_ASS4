@@ -1,0 +1,9 @@
+.NotFound {
+  border: 1px solid #ddd;
+  padding: 100px;
+  text-align: center;
+  color: rgb(203, 15, 15);
+}
+.NotFound button {
+  background-color: rgb(203, 15, 15);
+}

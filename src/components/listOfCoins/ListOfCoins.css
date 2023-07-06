@@ -1,0 +1,66 @@
+.listOfBitCoins {
+  background: #e4e4e4;
+  padding: 30px;
+  height: 100%;
+  }
+.listOfBitCoins h2 {
+  font-size: 35px;
+}
+.listOfBitCoinsWrapper {
+  background-color: #fff;
+  padding: 50px;
+}
+.listOfBitCoinsItems {
+  display: flex;
+}
+.listOfBitCoinsImg {
+    width: 220px;
+    height: 190px;
+    flex-direction: column;
+}
+.listOfBitCoinsImg img {
+    width: 100%;
+    height: 100%;
+}
+.listOfBitCoinsTitle {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    align-content: center;
+}
+.listOfBitCoinsTitle label {
+  border: 1px solid rgb(221, 221, 221);
+  padding: 9px;
+  margin: 10px 10px 10px 0;
+}
+.listOfBitCoinsItems {
+    display: flex;
+    border: 1px solid rgb(221, 221, 221);
+    margin: 20px 0;
+    box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.3);
+    min-height: 190px;
+}
+
+.listOfBitCoinsTitle h5 {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.keyworsLink button {
+    background: #fff;
+    font-size: 15px;
+    color: #3579f6;
+    padding: 10px 20px;
+    border-radius: 1px;
+    margin: 10px 10px;
+    border: 1px solid #3579f6;
+}
+.listOfBitCoins h2 button {
+  background: transparent;
+  border: 1px solid #111;
+  color: #111;
+  margin-left: 50px;
+  margin-top: -10px;
+}

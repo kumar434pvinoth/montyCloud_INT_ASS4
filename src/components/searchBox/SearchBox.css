@@ -1,0 +1,135 @@
+
+button {
+  background: #3579f6;
+  font-size: 15px;
+  color: #fff;
+  margin: 0;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.todoWrapperMain {
+  background-size: contain;
+  background-size: cover;
+  background-image: url("https://media.istockphoto.com/id/1222150937/photo/blue-gradient-background-abstract-illustration-of-deep-water.jpg?s=612x612&w=0&k=20&c=i8mobcPhrpd0eOLyPtFN1gGLj3FI2NIVL6IBkWYvwmY=");  background-repeat: no-repeat;
+}
+.todoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.todoHeader {
+  background-color: #f1f1f1;
+  font-size: 23px;
+  padding: 22px 15px;
+  margin: 0;
+}
+.todosInnerWrappercenrwer {
+    border: 1px solid #ddd;
+    width: 640px;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px -8px #111;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding: 20px;
+}
+.todoHeader h6 {
+  padding: 0;
+  margin: 0;
+}
+.todoList {
+  margin: 20px;
+  border: 1px solid rgb(240, 229, 229);
+}
+.todoListText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 50px;
+}
+.todoListText input {
+    width: 280px;
+    height: 35px;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    font-size: 14px;
+    outline: none;
+}
+.todoListText button {
+    border-radius: 1px;
+    padding: 11px 20px;
+}
+.todosListItems {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border-top: 1px solid #dfdcdc;
+}
+.todosListItems h6 {
+  font-size: 16px;
+  font-weight: initial;
+  padding: 0;
+  margin: 0;
+}
+.todoList .todosListItems:nth-child(odd) {
+  background-color: #e9e9e9;
+}
+.todoList .todosListItems:nth-child(even) {
+  background-color: #fff;
+}
+button.edit {
+  background-color: rgb(0, 147, 0);
+}
+button.delete {
+    background-color: rgb(237, 0, 0);
+}
+.listAction button {
+    margin: 0 3px;
+    padding: 7px 15px;
+    font-size: 17px;
+}
+.todosNotExisted {
+height: 230px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.todosNotExisted h4 {
+margin: 0;
+color: rgb(236, 0, 0);
+}
+button.edit:hover {
+    background-color: rgb(2, 198, 2);
+}
+button.delete:hover {
+    background-color: rgb(249, 40, 40);
+}
+.todoListText button:hover {
+    background: #528df9;
+}
+.todoListTextDisable {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.errorText {
+    margin: 20px 0;
+    position: absolute;
+    color: rgb(201, 8, 8);
+    font-style: italic;
+    font-weight: bold;
+}
+.textbox {
+    margin-right: 20px;
+}
+.todosInnerWrapper h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 90px 0 90px  0;
+    color: #fff;
+}
